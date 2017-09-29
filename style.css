@@ -1,0 +1,56 @@
+#control {
+    position:fixed;
+    left:-200px;
+    top:30px;
+    width:200px;
+    background-color:rgba(200,200,200,0.5);
+    transition:left 1s;
+}
+
+#bgImgBox {
+    width:100%;
+    text-align: center;
+}
+
+.bgThumbs {
+    width:80%;
+    height:auto;
+    margin: 10px auto 10px auto;
+    
+}
+
+#open {
+    width:30%;
+    height:50px;
+    position:absolute;
+    right:-60px;
+    top:0;
+    background-color:rgba(200,200,200,0.5);
+}
+
+#openimg {
+    height:100%;
+}
+
+#close {
+    width:30%;
+    height:50px;
+    position:absolute;
+    right:-60px;
+    top:320px;
+    background-color:rgba(200,200,200,0.5);
+}
+
+#closeimg {
+    height:100%;
+}
+
+#bgImg {
+    width:100vw;
+    height:100vh;
+    background-image:url(img/bg.png);
+    background-size:cover;
+    position:absolute;
+    left:0;
+    top:0;
+}
